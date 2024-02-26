@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenue()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="views.html">Views</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">SIGN UP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenue()"></i>
+        </nav>
+        <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <h1>OUR PRODUCTS</h1>
+        </div>
+    </section>
+    <!-- ----------products------------- -->
+
+    <section class="products">
+        <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <h2>proucts we offer</h2>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit blanditiis vel asperiores
+                delectus.
+                Quibusdam iusto reprehenderit quae nemo accusantium neque. Omnis maiores possimus autem nostrum officiis
+                eveniet eligendi inventore fuga.</p>
+        </div>
+        <div class="row">
+            <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Dumbells</h3>
+                    <img src="images/dumbells1.jpg" alt="">
+                    <p>Dumbbells are often used for joint-isolation exercises such as biceps curls, chest flyes or
+                        shoulder raises. Using dumbbells for full-body, multiplanar movements, however, can provide a
+                        variety of different strength outcomes. It also offers many benefits for cardiorespiratory
+                        fitness and flexibility.</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Tredmills</h3>
+                    <img src="images/tredmill1.jpg" alt="">
+                    <p>Rather than the user powering a mill, the device provides a moving platform with a wide conveyor
+                        belt driven by an electric motor or a flywheel.The belt moves to the rear, requiring the user
+                        to walk or run at a speed matching the belt. The rate at which the belt moves is the rate of
+                        walking or running.</p>
+
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Kettlebell</h3>
+                    <img src="images/ketellbell1.jpg" alt="">
+                    <p>Kettlebells look like a cannonball with a handle, or a ball with a flat base connected to a
+                        handle, and are typically made of cast iron or cast steel. The unique shape of a kettlebell is
+                        one of the reasons why it's so effective.
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Chest Press <br> Machine</h3>
+                    <img src="images/cps.jpg" alt="">
+                    <p>The chest press targets your pectorals, deltoids, and triceps, building good muscle tissue and
+                        strength. Chest press exercise also works your serratus anterior and biceps. This developed
+                        upper body strength help with day-to-day activities such as pushing shopping carts, heavy doors,
+                        etc.</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Bench Press</h3>
+                    <img src="images/bench press.jpg" alt="">
+                    <p>A conventional bench press uses the pectoralis major, front deltoids, and triceps brachii to
+                        horizontally adduct the shoulder. While flat bench pressing, the pectoralis major and pectoralis
+                        minor muscles are activated. The exercise also uses the triceps and anconeus to extend the
+                        elbows.</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Dip Machine</h3>
+                    <img src="images/dip1.jpg" alt="">
+                    <p>The dip machine is a machine exercise that mimics a triceps dip, a bodyweight exercise performed
+                        on parallel bars or on a pull-up and dip station. It targets the triceps first, but also
+                        stretches and strengthens the chest and shoulders.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Curl Bench</h3>
+                    <img src="images/curl bench.jpg" alt="">
+                    <p>The preacher curl bench is a tried and true asset to bicep development. A simple barbell holder
+                        with an angle pad that you sit behind, rest your arms on the pad and curl up your barbell. The
+                        isolation of you biceps is quick way to target strength and growth in your arms.</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Rowing Machine</h3>
+                    <img src="images/rowing.jpg" alt="">
+                    <p>A rowing machine (or rower machine) mimics the actions of rowing and is great for a total body
+                        workout. A rowing machine provides a low-impact cardiovascular workout that improves your
+                        aerobic fitness. It also strengthens muscles and tones your entire body. Rowing machines are
+                        simple to use and available at many gyms</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
+                <div class="pro-col">
+                    <h3>Stationary Bike</h3>
+                    <img src="images/stationary.jpg" alt="">
+                    <p>A stationary bicycle (also known as exercise bicycle, exercise bike, spinning bike, spin bike, or
+                        exercycle) is a device used as exercise equipment for indoor cycling. It includes a saddle,
+                        pedals, and some form of handlebars arranged as on a (stationary) bicycle.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- -----------------footer-------------->
+    <div data-aos="zoom-out" data-aos-delay="500ms" data-aos-duration="1000">
+        <section class="footer">
+            <h2>CONTACT US</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptate maiores enim cumque ipsam
+                labore
+                tempore deleniti, <br> itaque ab quos quibusdam adipisci excepturi optio est, reprehenderit voluptatibus
+                cum
+                totam sapiente.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
